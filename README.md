@@ -133,7 +133,9 @@ The approach involves:
 
   
 
-1.  **Audio Conversion**: Audio files are loaded and converted to Mel spectrograms using `librosa`. ![Mel Spectrogram](mel_spectrogram.jpg)
+1.  **Audio Conversion**: Audio files are loaded and converted to Mel spectrograms using `librosa`.
+
+     ![Mel Spectrogram](mel_spectrogram.jpg)
 
 
 2.  **Dataset Creation**: A custom dataset class (`MelSpectrogramDataset`) is implemented to handle the loading and transformation of spectrogram images.
@@ -236,8 +238,8 @@ pip install -r requirements.txt
 
 1.  **Prepare Data**
 
-    Place the dataset and metadata in the designated directories.
-    Complete all TODO.
+    Place the dataset and metadata in the designated directories
+    and complete all TODO.
   
 
 2.  **Train the Model**
